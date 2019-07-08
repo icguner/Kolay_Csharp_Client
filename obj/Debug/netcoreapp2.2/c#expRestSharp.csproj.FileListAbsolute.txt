@@ -1,0 +1,11 @@
+/Users/icguner/projects/c#expRestSharp/bin/Debug/netcoreapp2.2/c#expRestSharp.deps.json
+/Users/icguner/projects/c#expRestSharp/bin/Debug/netcoreapp2.2/c#expRestSharp.runtimeconfig.json
+/Users/icguner/projects/c#expRestSharp/bin/Debug/netcoreapp2.2/c#expRestSharp.runtimeconfig.dev.json
+/Users/icguner/projects/c#expRestSharp/bin/Debug/netcoreapp2.2/c#expRestSharp.dll
+/Users/icguner/projects/c#expRestSharp/bin/Debug/netcoreapp2.2/c#expRestSharp.pdb
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.csprojAssemblyReference.cache
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.csproj.CoreCompileInputs.cache
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.AssemblyInfoInputs.cache
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.AssemblyInfo.cs
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.dll
+/Users/icguner/projects/c#expRestSharp/obj/Debug/netcoreapp2.2/c#expRestSharp.pdb
