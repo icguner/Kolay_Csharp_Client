@@ -1,7 +1,7 @@
 using RestSharp;
-using c_expRestSharp.Auth;
+using KolayCsharp_Client.Auth;
 
-namespace c_expRestSharp.Requests.LeaveType
+namespace KolayCsharp_Client.Requests.LeaveType
 {
     public class All:GetAuth
     {

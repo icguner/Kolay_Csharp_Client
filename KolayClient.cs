@@ -3,7 +3,8 @@ using System;
 using System.Collections.Generic;
 using RestSharp.Authenticators;
 using Newtonsoft.Json;
-namespace c_expRestSharp
+using KolayCsharp_Client.Requests.Models;
+namespace KolayCsharp_Client
 {
     public class KolayClient
     {   
@@ -22,16 +23,13 @@ namespace c_expRestSharp
             var jsonedResponse = JsonConvert.DeserializeObject(response.Content);
             Console.WriteLine(jsonedResponse);
         }
-        public void POST(string endpoint , params (string Parameter, object Value)[] pairs)
+        public void POST(string endpoint, Request requestData)
         {
             var request = new RestRequest(endpoint, Method.POST);
-            foreach (var pair in pairs)
-            {
-                Console.WriteLine($"{pair.Parameter} = {pair.Value}");
-                request.AddParameter(pair.Parameter, pair.Value);
-            }
+            request.AddJsonBody(requestData);
             IRestResponse response = client.Execute(request);
             var jsonedResponse = JsonConvert.DeserializeObject(response.Content);
+            Console.WriteLine(requestData);
             Console.WriteLine(jsonedResponse);
         }
     }

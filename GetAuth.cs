@@ -3,7 +3,7 @@ using RestSharp;
 using RestSharp.Authenticators;
 using Newtonsoft.Json;
 
-namespace c_expRestSharp
+namespace KolayCsharp_Client
 {
     public class GetAuth
     {

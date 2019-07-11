@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>c_expRestSharp</RootNamespace>
+    <RootNamespace>KolayCsharp_Client</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

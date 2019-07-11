@@ -1,6 +1,6 @@
 using RestSharp;
 
-namespace c_expRestSharp.Auth
+namespace KolayCsharp_Client.Auth
 {
     public class Client
     {

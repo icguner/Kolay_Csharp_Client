@@ -1,4 +1,4 @@
-namespace c_expRestSharp
+namespace KolayCsharp_Client
 {
     public class AuthCredentials
     {
@@ -6,9 +6,5 @@ namespace c_expRestSharp
         public string apiVersion = "1";
         public string username = "icguner@kolayhr.com";
         public string password = "241715iso";
-    }
-    public class ApiParams
-    {
-
     }
 }

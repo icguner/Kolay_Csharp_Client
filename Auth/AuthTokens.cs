@@ -1,4 +1,4 @@
-namespace c_expRestSharp
+namespace KolayCsharp_Client
 {
     public class AuthTokens
     {
